@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
+import './App.css';
 import PalindromeChecker from './comps/PalindromeChecker'
 import SortVisualizer from './comps/SortVisualizer';
 import Home from './Home';

@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const PalindromeChecker = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const PalindromeChecker = () => {
       <p>
         <Link to={'/'}>Home</Link>
         <Link to={'/sortingtask'}>Sorting Task</Link>
+        <Link to={'/stackapp'}>StackApp</Link>
       </p>
 
       <Row className="mt-5">

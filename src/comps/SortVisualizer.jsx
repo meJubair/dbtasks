@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SortVisualizer = () => {
   useEffect(() => {
@@ -80,6 +81,7 @@ const SortVisualizer = () => {
       <p>
       <Link to={'/'}>Home</Link>
       <Link to={'/palindrome'}>Palindrome Checker</Link>
+      <Link to={'/stackapp'}>Simple Stack App</Link>
       </p>
       <Row className="mt-5">
         <Col md={{ span: 6, offset: 3 }}>
